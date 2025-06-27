@@ -204,6 +204,11 @@ React.useEffect(() => {
             <h1 className="text-2xl font-bold text-gray-800 mb-4 font-inter">
               PRAYASS Video Browser
             </h1>
+            <img
+              src="https://raw.githubusercontent.com/luvkushmina/pw/refs/heads/master/Screenshot%202025-06-27%20194803.png"
+              alt="Folder structure of PRAYASS"
+              className="rounded-xl shadow-lg w-full max-w-2xl mx-auto my-6"
+            />
             <p className="text-gray-600 mb-8 font-roboto">
               Select your PRAYASS folder to browse videos
             </p>
