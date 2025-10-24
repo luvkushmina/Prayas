@@ -1,5 +1,5 @@
 # The PRAYASS app acts like a smart video and notes organizer for students.
-# https://prayas-one.vercel.app/
+#https://prayas-one.vercel.app/
 
 Here’s how it works in simple terms:
 
