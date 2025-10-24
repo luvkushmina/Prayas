@@ -81,9 +81,3 @@ Make sure that each PDF file has the same name as its video file for easy identi
 **Love kush**
 
 ---
-
-## 📄 License
-
-This project is open-source and available under the **MIT License**.
-
-```
