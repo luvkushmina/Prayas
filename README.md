@@ -1,7 +1,42 @@
-# 🖼️ CSS Image Gallery with Lightbox (HTML + CSS Only)
+# The PRAYASS app acts like a smart video and notes organizer for students.
 
-This project is a **responsive image gallery** built using only **HTML and CSS**, featuring a **lightbox-style popup** that allows users to view images in a larger format.  
-It uses the **checkbox trick** (or alternatively the `:target` selector) — no JavaScript required!
+Here’s how it works in simple terms:
+
+You can easily find and watch your video lectures and read their PDF notes in one place.
+
+To stay focused and avoid distractions, you save your downloaded study materials on your device in a clear folder structure.
+
+Each subject (Physics, Chemistry, Math) has its own folder.
+
+Inside each subject folder, there are chapters, and each chapter contains both the video lectures (.mp4) and notes (.pdf).
+
+---
+## 📁 Project Structure(“The project will only work if the files in the folder follow this specific structure.”)
+
+```
+
+PRAYASS/
+│
+├── Physics/
+│   ├── Chapter 1/
+│   │   ├── video1.mp4
+│   │   └── notes1.pdf
+│   ├── Chapter 2/
+│   │   ├── video2.mp4
+│   │   └── notes2.pdf
+│
+├── Chemistry/
+│   ├── Chapter 1/
+│   │   ├── video1.mp4
+│   │   └── notes1.pdf
+│
+├── Math/
+│   ├── Chapter 1/
+│   │   ├── video1.mp4
+│   │   └── notes1.pdf
+
+
+````
 
 ---
 
@@ -16,21 +51,30 @@ It uses the **checkbox trick** (or alternatively the `:target` selector) — no 
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure(“The project will only work if the files in the folder follow this specific structure.”)
 
 ```
 
-ImageGallery/
+PRAYASS/
 │
-├── assets/
-│   ├── Im (45).jpg
-│   ├── Im (46).jpg
-│   ├── Im (47).jpg
-│   └── ...more images
+├── Physics/
+│   ├── Chapter 1/
+│   │   ├── video1.mp4
+│   │   └── notes1.pdf
+│   ├── Chapter 2/
+│   │   ├── video2.mp4
+│   │   └── notes2.pdf
 │
-├── Gallery.html          # Main HTML file
-├── Gallery.css           # CSS for gallery & popup styling
-└── README.md           # Project documentation (this file)
+├── Chemistry/
+│   ├── Chapter 1/
+│   │   ├── video1.mp4
+│   │   └── notes1.pdf
+│
+├── Math/
+│   ├── Chapter 1/
+│   │   ├── video1.mp4
+│   │   └── notes1.pdf
+
 
 ````
 
