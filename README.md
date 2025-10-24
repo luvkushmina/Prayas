@@ -1,5 +1,5 @@
 
-# The PRAYASS app acts like a smart video and notes organizer for students.
+### The PRAYASS app acts like a smart video and notes organizer for students.
 ---
 <div align="center">
   <img src="https://github.com/luvkushmina/project-images/blob/df63e13a80c9b6e77328c09b1e2da701ec4fad9e/Prayas%20folder/Screenshot%20from%202025-10-24%2013-13-35.png" alt="Description of image" width="600"/>
