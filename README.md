@@ -37,7 +37,7 @@ PRAYASS/
 
 
 ````
-![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-23.png)
+![CREATE AN FOLDER NAMED PRAYAS](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-23.png)
 ![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-31.png)
 ![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-43.png)
 ![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-53.png)
