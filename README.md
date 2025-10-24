@@ -37,13 +37,27 @@ PRAYASS/
 
 
 ````
-CREATE AN FOLDER NAMED PRAYAS
+🏗️ Step 1: Create Main Folder
+Create a main folder named PRAYAS where all your study materials will be organized.
 ![CREATE AN FOLDER NAMED PRAYAS](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-23.png)
-CREATE SUBJECT FOLDER
+
+📘 Step 2: Create Subject Folders
+Inside the PRAYAS folder, create separate subject folders such as Physics, Chemistry, and Maths to keep the materials well-sorted.
 ![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-31.png)
-CREATE FOLDERS OF CHAPTER
+
+📂 Step 3: Create Chapter Folders
+Within each subject folder, create folders for individual chapters.
+This helps keep your lectures and notes for each topic isolated and easy to access.
 ![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-43.png)
-IN the chapter folder uplode the mp4 and pdf file make sure the pdf file related to the vidio have the same name as the mp4 file
+
+🎥 Step 4: Add Lecture Videos & Notes
+Inside each chapter folder, upload both:
+
+Your video lectures (.mp4)
+
+The corresponding PDF notes (.pdf)
+
+Make sure that each PDF file has the same name as its video file for easy identification.
 ![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-53.png)
 
 
