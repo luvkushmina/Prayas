@@ -37,9 +37,13 @@ PRAYASS/
 
 
 ````
+CREATE AN FOLDER NAMED PRAYAS
 ![CREATE AN FOLDER NAMED PRAYAS](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-23.png)
+CREATE SUBJECT FOLDER
 ![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-31.png)
+CREATE FOLDERS OF CHAPTER
 ![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-43.png)
+IN the chapter folder uplode the mp4 and pdf file make sure the pdf file related to the vidio have the same name as the mp4 file
 ![Description of image](https://github.com/luvkushmina/project-images/blob/65f14ddd6f815333d4b3686fc04f38721881bfc1/Prayas%20folder/Screenshot%20from%202025-10-24%2012-55-53.png)
 
 
