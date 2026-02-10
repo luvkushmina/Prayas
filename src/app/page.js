@@ -322,74 +322,94 @@ React.useEffect(() => {
     );
   }
 
-  // Render chapters view
-  if (currentView === "chapters") {
-    return (
-      <div className="min-h-screen bg-gray-100 p-8">
-        <div className="max-w-6xl mx-auto">
-          <div className="mb-8">
-            <div className="flex items-center text-sm text-gray-500 mb-4">
-              <span className="text-gray-700">PRAYASS</span>
-              <i className="fas fa-chevron-right mx-2"></i>
-              <span className="text-gray-700">{currentSubject?.name}</span>
+// Render folder selection screen
+if (currentView === "folder-select") {
+  return (
+    <div className="min-h-screen bg-gray-100 p-8 flex flex-col">
+      {/* Main Content */}
+      <div className="flex-grow">
+        <div className="max-w-md mx-auto pt-20">
+          <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
+            <div className="text-gray-600 text-sm font-medium mb-2">
+              PRAYASS
             </div>
-            <h1 className="text-3xl font-bold text-gray-800 mb-4 font-inter">
-              {currentSubject?.name} Chapters
+
+            <h1 className="text-2xl font-bold text-gray-800 mb-4 font-inter">
+              PRAYASS Video Browser
             </h1>
-            <button
-              onClick={goToSubjects}
-              className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center"
-            >
-              <i className="fas fa-arrow-left mr-2"></i>
-              Back to Subjects
-            </button>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {chapters.map((chapter, index) => (
-              <div
-                key={index}
-                onClick={() => {
-                  setCurrentChapter(chapter);
-                  loadFiles(chapter.handle);
-                }}
-                className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow cursor-pointer p-6 border border-gray-200"
-              >
-                <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4">
-                    <i className="fas fa-folder text-gray-700 text-xl"></i>
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-gray-800 font-inter">
-                      {chapter.name}
-                    </h3>
-                    <p className="text-gray-500 text-sm font-roboto flex items-center">
-                      <i className="fas fa-play-circle mr-1 text-xs"></i>
-                      {chapter.videoCount} videos
-                    </p>
-                  </div>
-                </div>
+            <img
+              src="https://raw.githubusercontent.com/luvkushmina/project-images/43011a56af31cea250d46e4389b6d1b4eb1a4240/Prayas%20folder/ChatGPT%20Image%20Feb%2010%2C%202026%2C%2008_09_24%20AM.png"
+              alt="Folder structure of PRAYASS"
+              className="rounded-xl shadow-lg w-full max-w-2xl mx-auto my-6"
+            />
+
+            <p className="text-gray-600 mb-8 font-roboto">
+              Select your PRAYASS folder to browse videos
+            </p>
+
+            {!isFileSystemSupported ? (
+              <div className="text-red-600 mb-4">
+                <i className="fas fa-exclamation-triangle text-2xl mb-2"></i>
+                <p className="font-medium">
+                  File System Access API not supported
+                </p>
+                <p className="text-sm">
+                  Please use Chrome, Edge, or another Chromium-based browser
+                </p>
               </div>
-            ))}
+            ) : (
+              <button
+                onClick={selectFolder}
+                disabled={loading}
+                className="bg-gray-800 hover:bg-gray-900 disabled:bg-gray-400 text-white px-8 py-3 rounded-lg font-medium transition-colors flex items-center justify-center mx-auto"
+              >
+                {loading ? (
+                  <>
+                    <i className="fas fa-spinner fa-spin mr-2"></i>
+                    Loading...
+                  </>
+                ) : (
+                  <>
+                    <i className="fas fa-folder-open mr-2"></i>
+                    Select PRAYASS Folder
+                  </>
+                )}
+              </button>
+            )}
+
+            {error && (
+              <div className="mt-4 p-3 bg-red-100 border border-red-300 rounded-lg text-red-700">
+                <i className="fas fa-exclamation-circle mr-2"></i>
+                {error}
+              </div>
+            )}
           </div>
-
-          {loading && (
-            <div className="text-center mt-8">
-              <i className="fas fa-spinner fa-spin text-2xl text-gray-600"></i>
-              <p className="text-gray-600 mt-2">Loading chapters...</p>
-            </div>
-          )}
-
-          {error && (
-            <div className="mt-6 p-4 bg-red-100 border border-red-300 rounded-lg text-red-700">
-              <i className="fas fa-exclamation-circle mr-2"></i>
-              {error}
-            </div>
-          )}
         </div>
       </div>
-    );
-  }
+
+      {/* Footer */}
+      <footer className="text-center text-sm text-gray-500 mt-6">
+        <p>
+          Built by{" "}
+          <span className="font-medium text-gray-700">
+            Luv Kush Mina
+          </span>
+        </p>
+        <a
+          href="https://github.com/luvkushmina"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 mt-1 text-gray-600 hover:text-gray-900 transition-colors"
+        >
+          <i className="fab fa-github text-lg"></i>
+          github.com/luvkushmina
+        </a>
+      </footer>
+    </div>
+  );
+}
+
 
   // Render video player view
   if (currentView === "video-player" && selectedVideo) {
