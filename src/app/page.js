@@ -253,6 +253,26 @@ React.useEffect(() => {
           </div>
         </div>
       </div>
+      {/* Footer */}
+      <footer className="text-center text-sm text-gray-500 mt-6">
+        <p>
+          Built by{"LOVE KUSH"}
+          <span className="font-medium text-gray-700">
+            Luv Kush Mina
+          </span>
+        </p>
+        <a
+          href="https://github.com/luvkushmina"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 mt-1 text-gray-600 hover:text-gray-900 transition-colors"
+        >
+          <i className="fab fa-github text-lg"></i>
+          github.com/luvkushmina
+        </a>
+      </footer>
+    </div>
+  
     );
   }
 
