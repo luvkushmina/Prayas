@@ -195,7 +195,8 @@ React.useEffect(() => {
   // Render folder selection screen
   if (currentView === "folder-select") {
     return (
-      <div className="min-h-screen bg-gray-100 p-8">
+      <div className="min-h-screen bg-gray-100 p-8 flex flex-col">
+      <main className="flex-grow">
         <div className="max-w-md mx-auto pt-20">
           <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
             <div className="text-gray-600 text-sm font-medium mb-2">
@@ -213,6 +214,7 @@ React.useEffect(() => {
             <p className="text-gray-600 mb-8 font-roboto">
               Select your PRAYASS folder to browse videos
             </p>
+    
 
             {!isFileSystemSupported ? (
               <div className="text-red-600 mb-4">
@@ -253,8 +255,26 @@ React.useEffect(() => {
           </div>
         </div>
       </div>
+    </main>
+    <footer className="text-center text-sm text-gray-500 mt-6">
+      <p>
+        Built by <span className="font-medium text-gray-700">Luv Kush Mina</span>
+      </p>
+      <a
+        href="https://github.com/luvkushmina"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-600 hover:text-gray-900 transition-colors"
+      >
+        github.com/luvkushmina
+        </a>
+      </footer>
+    </div>
+  
+  
     );
   }
+
 
   // Render subjects view
   if (currentView === "subjects") {
