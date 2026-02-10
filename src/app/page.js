@@ -205,7 +205,7 @@ React.useEffect(() => {
               PRAYASS Video Browser
             </h1>
             <img
-              src="https://raw.githubusercontent.com/luvkushmina/pw/refs/heads/master/Screenshot%202025-06-27%20194803.png"
+              src="https://github.com/luvkushmina/project-images/blob/43011a56af31cea250d46e4389b6d1b4eb1a4240/Prayas%20folder/ChatGPT%20Image%20Feb%2010%2C%202026%2C%2008_09_24%20AM.png"
               alt="Folder structure of PRAYASS"
               className="rounded-xl shadow-lg w-full max-w-2xl mx-auto my-6"
             />
